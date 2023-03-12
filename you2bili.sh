@@ -1,3 +1,4 @@
+#!/bin/bash
 mkdir biliupdir \
 && cd biliupdir \
 && pip install biliup \
