@@ -21,5 +21,4 @@ EOF
 
 # 扫码登录 B站登录
 biliupR/biliup login \
-&& ./ \
 && biliup start
