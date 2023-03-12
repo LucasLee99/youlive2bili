@@ -2,7 +2,7 @@
 mkdir biliupdir \
 && cd biliupdir \
 && pip install biliup \
-&& wget -c https://github.com/ForgQi/biliup-rs/releases/download/v0.1.15/biliupR-v0.1.15-x86_64-linux.tar.xz \
+&& wget -c http://ghproxy.com/https://github.com/ForgQi/biliup-rs/releases/download/v0.1.15/biliupR-v0.1.15-x86_64-linux.tar.xz \
 && tar -xvf ./biliupR-v0.1.15-x86_64-linux.tar.xz \
 && mv biliupR-v0.1.15-x86_64-linux/ biliupR
 
