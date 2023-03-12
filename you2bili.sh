@@ -20,4 +20,5 @@ tags = ["追逐"]
 EOF
 
 # 扫码登录 B站登录
+
 biliupR/biliup login && mv biliupR/cookies.json ./ && biliup start
