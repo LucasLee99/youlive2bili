@@ -1,7 +1,7 @@
 # youlive2bili 油管直播监控自动发哔哩哔哩
 ## 1. 操作步骤, 在你的 vps 上执行下面的命令，等待弹出 二维验证码，扫码登录即可
 ```
-wget -c https://github.com/LucasLee99/youlive2bili/blob/main/you2bili.sh && chmod +x you2bili.sh && ./you2bili.sh
+wget -c http://ghproxy.com/https://github.com/LucasLee99/youlive2bili/blob/main/you2bili.sh && chmod +x you2bili.sh && ./you2bili.sh
 ```
 ## 2. 如果需要修改监控直播间，请修改 当前目录下 config.toml 文件，就是将 url 替换为你要监控的直播间
 ## 3. 自动监控自己喜欢的主播自动录制保存发到B站
