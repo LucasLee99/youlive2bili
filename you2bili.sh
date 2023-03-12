@@ -16,8 +16,8 @@ tags = ["安静学习"]
 # 设置直播间2
 [streamers."在线追逐"]
 url = ["https://www.youtube.com/watch?v=iNRIA8HE0DA"]
-tags = ["追逐"]            
+tags = ["追逐"]
 EOF
 
 # 扫码登录 B站登录
-cd biliupR && ./biliup login && biliup start 
+biliupR/biliup login && mv biliupR/cookies.json ./ && biliup start
